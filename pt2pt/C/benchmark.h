@@ -5,6 +5,7 @@
 #include <math.h>
 #include <assert.h>
 #include <string.h>
+#include <sys/time.h>
 
 #define MAX_REQ_NUM 1000
 

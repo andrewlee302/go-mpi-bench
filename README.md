@@ -3,7 +3,7 @@
 
 * Point-to-point Latency
 * Network Bandwidth
-* Strat Overhead
+* Strat-up Overhead
 
 ## Go-Binding MPI Datatype
 * BYTE                   
@@ -27,8 +27,8 @@
 * COMPLEX               
 * DOUBLE_COMPLEX   
 
-## Go-Binding MPI Programming Interface(Only list common interface)
-package MPI
+## Go-Binding MPI Programming Interface(Only list common interfaces)
+package go-mpi/MPI
 * MPI_INIT(): func Init(argv *[]string) int
 * MPI_FINALIZE(): func Finalize() int
 * MPI_COMM_SIZE(comm, size): func Comm_size(comm Comm) (int, int)
